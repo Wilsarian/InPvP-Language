@@ -1,6 +1,6 @@
 CORE_COMMAND_IP: "Du spielst auf: {serverName}.inpvp.net"
 CORE_MOTD:
-- "Willlommen zum InstantNetwork {serverType} Server"
+- "Willkommen zum InstantNetwork {serverType} Server"
 - "Du spielst auf {serverId}"
 CORE_COMMAND_RESTRICTED: "\xC2\xBB Dieser Befehl ist  eingeschränkt."
 
