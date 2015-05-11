@@ -1,0 +1,60 @@
+CORE_COMMAND_IP: "Playing op: {serverName}.inpvp.net"
+
+# Auth
+AUTH_INCORRECT_PASSWORD: "/> ."
+AUTH_LOGGED_IN: "/> `Je moet ingelogt zijn."
+AUTH_REGISTER: "> Je moet je eerst registreren. probeer /reg <password>"
+AUTH_ERROR: "> Onze loginserver heeft wat problemen op dit moment.."
+AUTH_NEEDS_LOGIN: "> je moet ingelogt zijn. gebruik /login <password>"
+AUTH_NEEDS_REGISTER:
+  - "> Je kan geen spellen spelen zonder dat je een account hebt."
+  - "> Maak een account door /reg <password> te doen."
+AUTH_WELCOME_BACK:
+  - "> Welkom terug, {playerName}."
+  - "> Typ je wachtwoord in de chat om in te loggen."
+  - "/>Typ je wachtwoord"
+AUTH_ALREADY_REGISTERED:
+  - "> Dit account is al in gebruik!"
+  - "> Als je je wachtwoord ben vergeten,"
+  - "> reset het via de website of de app."
+AUTH_REGISTERED: "> Je bent geregistreerd en ingelogt."
+
+# Engine
+ENGINE_ARENA_JOIN: "/> {displayName} is gejoined. ({playerCount}/{totalPlayers})"
+ENGINE_ARENA_QUIT: "/> {displayName} heeft verlaten. ({playerCount}/{totalPlayers})"
+ENGINE_ARENA_START:
+  - ">"
+  - "> Game wil beginnen {time}"
+  - ">"
+ENGINE_ARENA_OPEN:
+  - ">"
+  - "> Een {gamemode} game in net geopend!"
+  - ">"
+ENGINE_ARENA_BROADCAST: "> {time} over."
+
+# NPC
+# EngineHook
+NPC_ENGINE_TAP_TO_JOIN: " > Klik om te joinen < "
+NPC_ENGINE_MAP: "Map: {mapName}"
+NPC_ENGINE_GAMEMODE: "Gamemode: {gamemode}"
+NPC_ENGINE_PLAYERS: "Spelers: [{playerCount}/{totalPlayers}]"
+
+# BlockHunt
+BH_BECOME_HUNTER: "BH> Je bent een jager"
+BH_START_BLOCKS:
+  - " "
+  - "BH> Je bent een {blockName}"
+  - " "
+BH_START_HUNTER:
+  - " "
+  - "BH> je bent een jager! Zoek en vermoord de blokjes!"
+  - " "
+BH_HUNTERS_RELEASED: "BH> jagers worden losgelaten in 1 minute."
+BH_BLOCKS_WIN: "Blocks Win!"
+BH_BLOCKS_WIN_TIME: "Time up! Blocks Win!"
+BH_HUNTERS_WIN: "Jagers Winnen!"
+BH_BROADCAST: "BH> Blocks: {blocksCount} | jagers: {huntersCount}"
+BH_BECOME_SOLID: "BH> Je bent nu een vast block."
+BH_NO_LONGER_SOLID: "BH> Je bent geen vast block meer."
+BH_FOUND_PLAYER: "BH> Je hebt {playerName} gevonden!"
+BH_UNCOVERED: "BH> Je bent gevonden."

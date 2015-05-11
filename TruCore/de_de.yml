@@ -1,0 +1,45 @@
+CORE_COMMAND_IP: "Du spielst auf: {serverName}.inpvp.net"
+CORE_MOTD:
+- "Willlommen zum InstantNetwork {serverType} Server"
+- "Du spielst auf {serverId}"
+CORE_COMMAND_RESTRICTED: "\xC2\xBB Dieser Befehl ist  eingeschränkt."
+
+# Auth
+AUTH_INCORRECT_PASSWORD: "/> Das Passwort ist nicht korrekt."
+AUTH_LOGGED_IN: "/> Du hast dich eingeloggt."
+AUTH_REGISTER: "> Du musst dich erst registrieren. Probiere /reg <password>"
+AUTH_ERROR: "> Unser Login Server erfährt gerade Probleme."
+AUTH_NEEDS_LOGIN: "> Du musst eingeloggt sein. Benutze /login <password>"
+AUTH_NEEDS_REGISTER:
+- "> Du kannst keine Spielmodi spielen, wenn du keinen Account hast."
+- "> Erstelle ein Account mit dem Befehl /reg <password>"
+AUTH_WELCOME_BACK:
+- "> Willkommen zurück, {playerName}."
+- "> Schreibe dein Passwort in den Chat, um dich einzuloggen"
+- "/>Schreibe dein Passwort"
+AUTH_ALREADY_REGISTERED:
+- "> Dieser Account ist bereits genutzt!"
+- "> Wenn du dein Passwort vergessen hast,"
+- "> Dann Setze es auf Der Website oder in der App zurück."
+AUTH_REGISTERED: "> Du hast dich registriert & eingeloggt."
+
+# Engine
+ENGINE_ARENA_JOIN: "/> {displayName} Betritt das Spiel. ({playerCount}/{totalPlayers})"
+ENGINE_ARENA_QUIT: "/> {displayName} Verließ das Spiel. ({playerCount}/{totalPlayers})"
+ENGINE_ARENA_START:
+- ">"
+- "> Das Spiel startet in{time}"
+- ">"
+ENGINE_ARENA_OPEN:
+- ">"
+- "> Ein {gamemode} Spiel hat gerade geöffnet!"
+- ">"
+ENGINE_ARENA_BROADCAST: "> {time} Verbleibend."
+
+# NPC
+# EngineHook
+NPC_ENGINE_TAP_TO_JOIN: " > Berühren um Beitreten zu können< "
+NPC_ENGINE_MAP: "Map: {mapName}"
+NPC_ENGINE_GAMEMODE: "Spielmodi: {gamemode}"
+NPC_ENGINE_PLAYERS: "Spieler: [{playerCount}/{totalPlayers}]"
+

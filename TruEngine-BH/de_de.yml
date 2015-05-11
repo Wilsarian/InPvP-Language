@@ -1,0 +1,31 @@
+# BlockHunt
+BH_BECOME_HUNTER: " \nBH> Du bist nun ein Sucher\n "
+BH_START_BLOCKS: " \nBH> Du bist nun ein {blockName}\n "
+BH_START_HUNTER: " \nBH> Du bist ein Sucher!Finde und eliminiere alle Blöcke!\n "
+BH_HUNTERS_RELEASE: "BH> Sucher werden in einer Minute freigelassen."
+BH_HUNTERS_RELEASED: "BH> Sucher wurden freigelassen!"
+BH_BLOCKS_WIN: "Blöcke gewannen!"
+BH_BLOCKS_WIN_TIME: "Zeit rum! Blöcke gewannen!"
+BH_HUNTERS_WIN: "Sucher gewannen!"
+BH_BROADCAST: "BH> Blöcke: {blocksCount} | Sucher: {huntersCount}"
+BH_BECOME_SOLID: "BH> Du bist nun ein fester Block."
+BH_NO_LONGER_SOLID: "BH> Du bist nicht mehr länger ein fester Block."
+BH_FOUND_PLAYER: "BH> Du wurdest gefunden {playerName}!"
+BH_UNCOVERED: "BH> Du bist gefunden worden!"
+BH_CHANGE_BLOCK: "BH> Du bist nun ein {blockName}."
+
+# BH Kits - Blocks
+BH_KIT_BLOCKS_KNOCKBACK: "Knockback"
+BH_KIT_BLOCKS_KNOCKBACK_DESC: "Schlage Sucher zurück, so dass du wegrennen kannst! Außerdem Ketten Rüstung."
+BH_KIT_BLOCKS_MORPHER: "Morpher"
+BH_KIT_BLOCKS_MORPHER_DESC: "Verwandle dich in jeden Block dieser Map, mitten im Spiel!"
+BH_KIT_BLOCKS_STANDARD: "Standard"
+BH_KIT_BLOCKS_STANDARD_DESC: "Werde ein fester Block nachdem du 3 Sekunden ruhig gestanden bist."
+
+# BH Kits - Hunters
+BH_KIT_HUNTERS_ARCHER: "Archer"
+BH_KIT_HUNTERS_ARCHER_DESC: "Benutze die Kraft deines Bogens um die Blöcke aus der Distanz zu töten!"
+BH_KIT_HUNTERS_TRACKER: "Tracker"
+BH_KIT_HUNTERS_TRACKER_DESC: "Finde heraus welcher Block der nächstliegende Verstecker hat!"
+BH_KIT_HUNTERS_STANDARD: "Standard"
+BH_KIT_HUNTERS_STANDARD_DESC: "Eisen Rüstung, Diamant Schwert"

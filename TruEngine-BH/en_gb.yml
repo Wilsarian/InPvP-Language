@@ -1,0 +1,39 @@
+# BlockHunt
+BH_BECOME_HUNTER: "&a{L_PREFIX}&e You are now a &bHunter"
+BH_START_BLOCKS: "&a{L_PREFIX}&e You are a &b{blockName}"
+BH_START_HUNTER: "&a{L_PREFIX}&e You are a &bHunter&e! Find and eliminate the &bBlocks&e!"
+BH_HUNTERS_RELEASE: "&a{L_PREFIX}&e Hunters will be released in &b1&e minute."
+BH_HUNTERS_RELEASED: "&a{L_PREFIX}&e Hunters have been released!"
+BH_BLOCKS_WIN: "Blocks Win!"
+BH_BLOCKS_WIN_TIME: "Time up! Blocks Win!"
+BH_HUNTERS_WIN: "Hunters Win!"
+BH_BROADCAST_HINT: "&a{L_PREFIX} &aHint: &eLook for a &b{blockType}&e!"
+BH_BROADCAST_POPUP: "&7Blocks: &b{blocksCount} &7| Hunters: &b{huntersCount} &7| &f{time}"
+BH_BECOME_SOLID: "&a{L_PREFIX}&e You are now a solid block."
+BH_NO_LONGER_SOLID: "&a{L_PREFIX}&e You are no longer a solid block."
+BH_FOUND_PLAYER: "&a{L_PREFIX}&e You found {playerName}!"
+BH_UNCOVERED: "&a{L_PREFIX}&e You have been found!"
+BH_CHANGE_BLOCK: "&a{L_PREFIX}&e You are now a {blockName}."
+BH_NOT_VALID_BLOCK: "&a{L_PREFIX}&c You cannot change into a &4{blockName}&c."
+
+# BH Kits - Blocks
+BH_KIT_BLOCKS_KNOCKBACK: "Knockback"
+BH_KIT_BLOCKS_KNOCKBACK_DESC: "Knockback hunters so you can run away! Also chain armour."
+
+BH_KIT_BLOCKS_MORPHER: "Morpher"
+BH_KIT_BLOCKS_MORPHER_DESC: "Morph into any of the map blocks during the game!"
+
+BH_KIT_BLOCKS_STANDARD: "Standard"
+BH_KIT_BLOCKS_STANDARD_DESC: "Become a solid block after being still for 3 seconds."
+
+# BH Kits - Hunters
+BH_KIT_HUNTERS_ARCHER: "Archer"
+BH_KIT_HUNTERS_ARCHER_DESC: "Use the powers from your bow to kill blocks from a distance!"
+
+BH_KIT_HUNTERS_TRACKER: "Tracker"
+BH_KIT_HUNTERS_TRACKER_DESC: "Find out which block the closest hider is hiding as!"
+BH_KIT_HUTNERS_TRACKER_POPUP: "&7Nearest Block: &a{blockType}"
+BH_KIT_HUNTERS_TRACKER_POPUP_NOT_FOUND: "&7 Nearest Block: &cToo far away!"
+
+BH_KIT_HUNTERS_STANDARD: "Standard"
+BH_KIT_HUNTERS_STANDARD_DESC: "Iron armour, Diamond sword"

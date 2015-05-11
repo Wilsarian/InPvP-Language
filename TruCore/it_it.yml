@@ -1,0 +1,71 @@
+# Tradotto da Enrico Calanna aka Derein_ ©2015
+
+CORE_COMMAND_IP: "Stai giocando su: {serverName}.inpvp.net"
+CORE_MOTD:
+  - "Benvenuto nel Server InstantNetwork {serverType}"
+  - "Stai giocando su {serverId}"
+CORE_COMMAND_RESTRICTED: "\xC2\xBB Questo comando è riservato."
+
+# Auth
+AUTH_INCORRECT_PASSWORD: "/> Password sbagliata."
+AUTH_LOGGED_IN: "/> Prima devi effettuare l' accesso."
+AUTH_REGISTER: "> Prima devi registrarti. Usa il comando /reg <password>"
+AUTH_ERROR: "> Il nostro servizio di login sta avendo dei problemi."
+AUTH_NEEDS_LOGIN: "> Prima devi effettuare l' accesso. Usa il comando /login <password>"
+AUTH_NEEDS_REGISTER:
+  - "> Non puoi giocare se non hai un account."
+  - "> Crea un account usando il comando /reg <password>"
+AUTH_WELCOME_BACK:
+  - "> Bentornato, {playerName}."
+  - "> Digita la password nella chat per loggarti"
+  - "/>Digita la password"
+AUTH_ALREADY_REGISTERED:
+  - "> Questo account è già in uso da qualcun altro!"
+  - "> Se hai dimenticato la tua password,"
+  - "> reimpostala tramite il sitoweb o l' applicazione."
+AUTH_REGISTERED: "> Ti sei registrato & loggato!"
+
+# Engine
+ENGINE_ARENA_JOIN: "/> {displayName} joined. ({playerCount}/{totalPlayers})"
+ENGINE_ARENA_QUIT: "/> {displayName} left. ({playerCount}/{totalPlayers})"
+ENGINE_ARENA_START:
+  - ">"
+  - "> Il gioco inizierà tra {time}"
+  - ">"
+ENGINE_ARENA_OPEN:
+  - ">"
+  - "> La modalità {gamemode} è stata appena aperta!"
+  - ">"
+ENGINE_ARENA_BROADCAST: "> {time} rimanente."
+
+# NPC
+# EngineHook
+NPC_ENGINE_TAP_TO_JOIN: " > PREMI PER ENTRARE < "
+NPC_ENGINE_MAP: "Mappa: {mapName}"
+NPC_ENGINE_GAMEMODE: "Gamemode: {gamemode}"
+NPC_ENGINE_PLAYERS: "Giocatori: [{playerCount}/{totalPlayers}]"
+
+# BlockHunt
+BH_BECOME_HUNTER:
+  - " "
+  - "BH> Ora sei un Cacciatore."
+  - " "
+BH_START_BLOCKS:
+  - " "
+  - "BH> Tu sei un {blockName} ."
+  - " "
+BH_START_HUNTER:
+  - " "
+  - "BH> Sei un cacciatore! Trova ed elimina i blocchi!"
+  - " "
+BH_HUNTERS_RELEASE: "BH> I cacciatori saranno rilasciati in 1 minuto."
+BH_HUNTERS_RELEASED: "BH> I cacciatori sono stati rilasciati!"
+BH_BLOCKS_WIN: "I blocchi hanno vinto!"
+BH_BLOCKS_WIN_TIME: "Tempo scaduto! I blocchi hanno vinto!"
+BH_HUNTERS_WIN: "I cacciatori hanno vinto!"
+BH_BROADCAST: "BH> Blocchi: {blocksCount} | Cacciatori: {huntersCount}"
+BH_BECOME_SOLID: "BH> Ora sei un blocco."
+BH_NO_LONGER_SOLID: "BH> Non sei più un blocco."
+BH_FOUND_PLAYER: "BH> Hai trovato {playerName}!"
+BH_UNCOVERED: "BH> Sei stato trovato!"
+BH_CHANGE_BLOCK: "BH> Ora sei un {blockName}."

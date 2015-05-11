@@ -1,0 +1,15 @@
+# BH Kits - Blocks
+BH_KIT_BLOCKS_KNOCKBACK: "Knockback"
+BH_KIT_BLOCKS_KNOCKBACK_DESC: "Usa Knockback sui Cacciatori per scappare via."
+BH_KIT_BLOCKS_MORPHER: "Trasformati"
+BH_KIT_BLOCKS_MORPHER_DESC: "Trasformati in qualunque blocco dentro la mappa!"
+BH_KIT_BLOCKS_STANDARD: "Standard"
+BH_KIT_BLOCKS_STANDARD_DESC: "Per diventare un blocco, stai fermo per 3 secondi."
+
+# BH Kits - Hunters
+BH_KIT_HUNTERS_ARCHER: "Arcere"
+BH_KIT_HUNTERS_ARCHER_DESC: "Utilizza i poteri del tuo arco per uccidere i blocchi da lontano!"
+BH_KIT_HUNTERS_TRACKER: "Detective"
+BH_KIT_HUNTERS_TRACKER_DESC: "Scopri il  blocco più vicino, esso si nasconde come!"
+BH_KIT_HUNTERS_STANDARD: "Standard"
+BH_KIT_HUNTERS_STANDARD_DESC: "Armatura di ferro, Spada di diamante"
