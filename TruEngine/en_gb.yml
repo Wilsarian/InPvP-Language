@@ -1,0 +1,59 @@
+# Engine
+ENGINE_HACK_20: "{L_PREFIX} You have been locked for 30 seconds for hacking."
+ENGINE_HACK_10: "{L_PREFIX} Kicked to lobby for hacking."
+ENGINE_HACK_5: "{L_PREFIX} Hacks detected, if you continue you will be kicked."
+ENGINE_HACK_UNLOCKED: "{L_PREFIX} You have been unlocked. Please do not hack.\n{L_PREFIX}If you continue you will be banned."
+
+ENGINE_ARENA_JOIN: "&a{L_PREFIX}&e {displayName}&e joined. &7({playerCount}/{totalPlayers})"
+ENGINE_ARENA_QUIT: "&c{L_PREFIX}&e {displayName}&e left. &7({playerCount}/{totalPlayers})"
+ENGINE_ARENA_START: "&d{L_PREFIX}\n&d{L_PREFIX}&e Game will start in &b{time}\n&d{L_PREFIX}"
+ENGINE_ARENA_OPEN: "&d{L_PREFIX}\n&d{L_PREFIX}&e A {gamemode} game has just opened!\n&d{L_PREFIX}"
+ENGINE_ARENA_BROADCAST: "&d{L_PREFIX} &b{time}&e remaining."
+ENGINE_ARENA_SUMMARY: "{L_SPACER}\n&e{CENTER}Game Over | Summary\n&b{CENTER}{winMessage}\n&7{CENTER}Kills: &b{killCount} &8| &7Deaths: &b{deathCount}\n{CENTER}&a+&b{credits}&e Credits\n{L_SPACER}"
+ENGINE_ARENA_SUMMARY_PLAIN: "{L_SPACER}\n{CENTER}Game Over | Summary\n{CENTER}{winMessage}\n{CENTER}+{credits} Credits\n{L_SPACER}"
+
+ENGINE_SPECTATOR_VIEW: "&7Closest Player: &b{playerName}&7 | &7Distance: &a{distance}"
+ENGINE_SPECTATOR_NOONE: "&7No players nearby."
+
+# Party
+PARTY_PREFIX: "&9{E_NOTE}"
+
+PARTY_ALREADY_IN_PARTY: "{L_PARTY_PREFIX}&c You are already in {player}'s party.\n{L_PARTY_PREFIX}&7 Leave party using &b/pl"
+PARTY_CREATE: "{L_PARTY_PREFIX}&a Party created.\n{L_PARTY_PREFIX}&7 Invite players with &b/pi [player]"
+PARTY_JOIN: "{L_PARTY_PREFIX}&e {player}&e joined the party."
+PARTY_QUIT: "{L_PARTY_PREFIX}&e {player}&e left the party."
+PARTY_INVITE: "{L_PARTY_PREFIX}&e Invited {player}&e to your party."
+PARTY_INVITED: "{L_PARTY_PREFIX}&e You have been invited to join {player}&e's party.\n{L_PARTY_PREFIX}&e Type &b/pj {player}&e to join!"
+PARTY_NOT_INVITED: "{L_PARTY_PREFIX}&c You have not been invited to {player}&c's party.\n{L_PARTY_PREFIX}&7 Ask them for an invite!"
+PARTY_NOT_FOUND: "{L_PARTY_PREFIX}&e {player}&e is not in a party or is not online!"
+PARTY_NOT_IN_PARTY: "{L_PARTY_PREFIX}&c You are not in a party."
+PARTY_NOT_LEADER: "{L_PARTY_PREFIX}&c You must be the party leader to do this!\n{L_PARTY_PREFIX}&e {player}&e is the party leader."
+PARTY_PLAYER_ALREADY_IN_PARTY: "{L_PARTY_PREFIX}&e {player}&e is already in a party!"
+PARTY_LEADER_MUST_JOIN: "{L_PARTY_PREFIX}&e You are in {player}&e's party. They decide what game to play!"
+PARTY_NOT_ENOUGH_SLOTS: "{L_PARTY_PREFIX}&c There are not enough free slots in this game for your party!"
+PARTY_LEFT_DUE_TO_LEADER: "{L_PARTY_PREFIX}&e Your party leader {player}&e left the game, taking you too!"
+PARTY_NEW_LEADER: "{L_PARTY_PREFIX}&e {player}&a is now the party leader!"
+
+PARTY_NAMETAG: "&1[&9{E_NOTE}&1]&7 {player}"
+PARTY_NAMETAG_LEADER: "&b[&9{E_NOTE_DOUBLE}&b]&7 {player}"
+
+# NPC
+NPC_SPACER: "&6{L_PREFIX}&7{E_CS} ----------------- &6{L_SUFFIX}"
+NPC_GENERAL_NOT_IN_ARENA: "&cYou must be in a game to use this NPC."
+
+# EngineHook
+NPC_ENGINE_TAP_TO_JOIN: "&a > TAP TO JOIN < "
+NPC_ENGINE_MAP: "&eMap: &b{mapName}"
+NPC_ENGINE_GAMEMODE: "&eGamemode: &b{gamemode}"
+NPC_ENGINE_PLAYERS: "&ePlayers: &7[&e{playerCount}&7/&e{totalPlayers}&7]"
+
+# KitSelectHook
+NPC_KITSELECT_TAP_TO_SELECT: "&e > TAP TO SELECT < "
+NPC_KITSELECT_SELECT: "&a [ SELECTED ] "
+NPC_KITSELECT_CONFIRM : "&b > TAP TO CONFIRM < "
+
+NPC_KITSELECT_EQUIP: "{L_PREFIX} ---- [ {kitName} ] ---- {L_SUFFIX}\n{kitDescription}\n{L_SPACER}\n- Tap the NPC again to select this kit"
+NPC_KITSELECT_EQUIPPED: "{L_PREFIX}&a Kit selected: &b{kitName}"
+NPC_KITSELECT_BUY: "{L_SPACER}\n{L_PREFIX}&7 {kitDescription}\n{L_PREFIX}&e Cost: &b{cost}&e Credits\n{L_SPACER}\n&e- Tap the NPC to purchase"
+NPC_KITSELECT_PURCHASED: "{L_PREFIX}&a Kit purchased: &b{kitName}"
+NPC_KITSELECT_NOT_ENOUGH_CREDITS: "{L_PREFIX}&c You need &e{needed}&c more credits."
