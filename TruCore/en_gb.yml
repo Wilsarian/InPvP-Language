@@ -13,7 +13,12 @@ PLAYERS_HIDDEN: "&cPlayers Hidden"
 PLAYERS_SHOWN: "&aPlayers are now visible"
 
 CORE_COMMAND_IP: "&6Playing on: &b{serverName}.inpvp.net"
-CORE_MOTD: "&7{L_SPACER}\n{CENTER}&eWelcome to the &5Instant&dNetwork\n{CENTER}&e{serverType}&e Server\n{CENTER}&7You are playing on &b{serverId}\n{L_SPACER}"
+CORE_MOTD:
+ - "{L_SPACER}"
+ - "{CENTER}&eWelcome to the &5Instant&dNetwork"
+ - "{CENTER}&e{serverType}&e Server"
+ - "{CENTER}&7You are playing on &b{serverId}"
+ - "{L_SPACER}"
 CORE_COMMAND_RESTRICTED: "{L_PREFIX}&c That command is restricted."
 CORE_VOTE_SUCCESS: "{L_PREFIX}&e Thanks for voting! &a+&b15&e Credits."
 CORE_VOTE: "{L_PREFIX}&e Vote at &binpvp.net/vote&e and get 15 Credits!"
@@ -25,9 +30,16 @@ AUTH_LOGGED_IN: "&a{L_PREFIX}&a You have been logged in."
 AUTH_REGISTER: "&c{L_PREFIX}&c You must register first. Try /reg <password>"
 AUTH_ERROR: "&c{L_PREFIX}&c Our login server is experiencing issues."
 AUTH_NEEDS_LOGIN: "&c{L_PREFIX}&c You must be logged in. Use /login <password>"
-AUTH_NEEDS_REGISTER: "&c{L_PREFIX}&e You cannot play games unless you create an account.\n&c{L_PREFIX}&7 Create an account by using the command &b/reg <password>"
-AUTH_WELCOME_BACK: "&6{L_PREFIX}&e Welcome back, &b{playerName}&e.\n&a{L_PREFIX}&e Type your password in chat to log in"
-AUTH_ALREADY_REGISTERED: "&6{L_PREFIX}&c This account has already been taken!\n&6{L_PREFIX}&e If you have forgotten your password,\n&6{L_PREFIX}&e please reset it via the website or app."
+AUTH_NEEDS_REGISTER:
+ - "&c{L_PREFIX}&e You cannot play games unless you create an account."
+ - "&c{L_PREFIX}&7 Create an account by using the command &b/reg <password>"
+AUTH_WELCOME_BACK:
+ - "&6{L_PREFIX}&e Welcome back, &b{playerName}&e."
+ - "&a{L_PREFIX}&e Type your password in chat to log in"
+AUTH_ALREADY_REGISTERED:
+ - "&6{L_PREFIX}&c This account has already been taken!"
+ - "&6{L_PREFIX}&e If you have forgotten your password,"
+ - "&6{L_PREFIX}&e please reset it via the website or app."
 AUTH_REGISTERED: "&a{L_PREFIX}&a You have been registered & logged in."
 
 POPUP_AUTH_NOT_LOGGED_IN:
@@ -39,8 +51,3 @@ POPUP_AUTH_TRANSFERRED: "&6{L_PREFIX} &7Transferred to &b{serverName} &6{L_SUFFI
 
 # Economy
 ECON_BALANCE: "&a{L_PREFIX}&e Credits: &b{balance}"
-
-# HungerGames
-HG_ARENA_START: "You have 2 minutes Invincibility to gather resources."
-HG_ARENA_BEGIN: "Let the hunger games begin!"
-HG_ARENA_END: "Time for a showdown."

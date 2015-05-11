@@ -18,16 +18,26 @@ ENGINE_SPECTATOR_NOONE: "&7No players nearby."
 # Party
 PARTY_PREFIX: "&9{E_NOTE}"
 
-PARTY_ALREADY_IN_PARTY: "{L_PARTY_PREFIX}&c You are already in {player}'s party.\n{L_PARTY_PREFIX}&7 Leave party using &b/pl"
-PARTY_CREATE: "{L_PARTY_PREFIX}&a Party created.\n{L_PARTY_PREFIX}&7 Invite players with &b/pi [player]"
+PARTY_ALREADY_IN_PARTY:
+ - "{L_PARTY_PREFIX}&c You are already in {player}'s party."
+ - "{L_PARTY_PREFIX}&7 Leave party using &b/pl"
+PARTY_CREATE:
+ - "{L_PARTY_PREFIX}&a Party created."
+ - "{L_PARTY_PREFIX}&7 Invite players with &b/pi [player]"
 PARTY_JOIN: "{L_PARTY_PREFIX}&e {player}&e joined the party."
 PARTY_QUIT: "{L_PARTY_PREFIX}&e {player}&e left the party."
 PARTY_INVITE: "{L_PARTY_PREFIX}&e Invited {player}&e to your party."
-PARTY_INVITED: "{L_PARTY_PREFIX}&e You have been invited to join {player}&e's party.\n{L_PARTY_PREFIX}&e Type &b/pj {player}&e to join!"
-PARTY_NOT_INVITED: "{L_PARTY_PREFIX}&c You have not been invited to {player}&c's party.\n{L_PARTY_PREFIX}&7 Ask them for an invite!"
+PARTY_INVITED:
+ - "{L_PARTY_PREFIX}&e You have been invited to join {player}&e's party."
+ - "{L_PARTY_PREFIX}&e Type &b/pj {player}&e to join!"
+PARTY_NOT_INVITED:
+ - "{L_PARTY_PREFIX}&c You have not been invited to {player}&c's party."
+ - "{L_PARTY_PREFIX}&7 Ask them for an invite!"
 PARTY_NOT_FOUND: "{L_PARTY_PREFIX}&e {player}&e is not in a party or is not online!"
 PARTY_NOT_IN_PARTY: "{L_PARTY_PREFIX}&c You are not in a party."
-PARTY_NOT_LEADER: "{L_PARTY_PREFIX}&c You must be the party leader to do this!\n{L_PARTY_PREFIX}&e {player}&e is the party leader."
+PARTY_NOT_LEADER:
+ - "{L_PARTY_PREFIX}&c You must be the party leader to do this!"
+ - "{L_PARTY_PREFIX}&e {player}&e is the party leader."
 PARTY_PLAYER_ALREADY_IN_PARTY: "{L_PARTY_PREFIX}&e {player}&e is already in a party!"
 PARTY_LEADER_MUST_JOIN: "{L_PARTY_PREFIX}&e You are in {player}&e's party. They decide what game to play!"
 PARTY_NOT_ENOUGH_SLOTS: "{L_PARTY_PREFIX}&c There are not enough free slots in this game for your party!"
@@ -52,8 +62,16 @@ NPC_KITSELECT_TAP_TO_SELECT: "&e > TAP TO SELECT < "
 NPC_KITSELECT_SELECT: "&a [ SELECTED ] "
 NPC_KITSELECT_CONFIRM : "&b > TAP TO CONFIRM < "
 
-NPC_KITSELECT_EQUIP: "{L_PREFIX} ---- [ {kitName} ] ---- {L_SUFFIX}\n{kitDescription}\n{L_SPACER}\n- Tap the NPC again to select this kit"
+NPC_KITSELECT_EQUIP:
+ - "{L_PREFIX} ---- [ {kitName} ] ---- {L_SUFFIX}"
+ - "{kitDescription}"
+ - "{L_SPACER}"
+ - "- Tap the NPC again to select this kit"
 NPC_KITSELECT_EQUIPPED: "{L_PREFIX}&a Kit selected: &b{kitName}"
-NPC_KITSELECT_BUY: "{L_SPACER}\n{L_PREFIX}&7 {kitDescription}\n{L_PREFIX}&e Cost: &b{cost}&e Credits\n{L_SPACER}\n&e- Tap the NPC to purchase"
+NPC_KITSELECT_BUY:
+ - "{L_SPACER}\n{L_PREFIX}&7 {kitDescription}"
+ - "{L_PREFIX}&e Cost: &b{cost}&e Credits"
+ - "{L_SPACER}"
+ - "&e- Tap the NPC to purchase"
 NPC_KITSELECT_PURCHASED: "{L_PREFIX}&a Kit purchased: &b{kitName}"
 NPC_KITSELECT_NOT_ENOUGH_CREDITS: "{L_PREFIX}&c You need &e{needed}&c more credits."
