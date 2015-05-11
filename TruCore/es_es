@@ -1,0 +1,53 @@
+# General
+SPACER: "&6{L_PREFIX}&7{E_CS} --------------------------- &6{L_SUFFIX}"
+PREFIX: "{E_CBOLD}\xBB&r"
+SUFFIX: "{E_CBOLD}\xAB&r"
+
+SERVER_STATUS: "&6{L_PREFIX} &5Instant &dNetwork &7{type} &6{E_CBOLD}{E_BULL}&r &7{online}&8/&7{max}&6 {L_SUFFIX}"
+SERVER_TRANSFER: "&6{L_PREFIX} &eTransferido a &b{server}&e."
+SERVER_TRANSFER_FAILED: "&c{L_PREFIX} &cThere are no &4{group} &cservers available!"
+
+NETWORK_OFFLINE_POPUP: "&cLos servidores de InPvP no estan trabajando."
+
+PLAYERS_HIDDEN: "&cJugadores ocultos"
+PLAYERS_SHOWN: "&aJugadores visibles"
+
+CORE_COMMAND_IP: "&6Estas en: &b{serverName}.inpvp.net"
+CORE_MOTD:
+ - "{L_SPACER}"
+ - "{CENTER}&eBienvenido a &5Instant&dNetwork"
+ - "{CENTER}&e{serverType}&e Server"
+ - "{CENTER}&7Estas jugando en &b{serverId}"
+ - "{L_SPACER}"
+CORE_COMMAND_RESTRICTED: "{L_PREFIX}&c Ese comando esta restringido."
+CORE_VOTE_SUCCESS: "{L_PREFIX}&e Gracias por votar! &a+&b15&e creditos."
+CORE_VOTE: "{L_PREFIX}&e Vota en &binpvp.net/vote&e y consigue 15 creditos!"
+CORE_VOTE_COMPLETE: "{L_PREFIX}&a Gracias por votar! Podras votar de nuevo mañana y conseguir creditos!"
+
+# Auth
+AUTH_INCORRECT_PASSWORD: "&c{L_PREFIX}&c Contraseña incorrecta."
+AUTH_LOGGED_IN: "&a{L_PREFIX}&a Ha sido conectado."
+AUTH_REGISTER: "&c{L_PREFIX}&c Registrate primero. Intenta /reg <contraseña>"
+AUTH_ERROR: "&c{L_PREFIX}&c Nuestro servidor esta experimentando problemas de inicio de sesion."
+AUTH_NEEDS_LOGIN: "&c{L_PREFIX}&c Debes ingresar. Usa /login <contraseña>"
+AUTH_NEEDS_REGISTER:
+ - "&c{L_PREFIX}&e No puedes jugar a menos que te crees una cuenta."
+ - "&c{L_PREFIX}&7 Crea una cuenta por el comando &b/reg <contraseña>"
+AUTH_WELCOME_BACK:
+ - "&6{L_PREFIX}&e Bienvenido de nuevo, &b{playerName}&e."
+ - "&a{L_PREFIX}&e Escribe tu contraseña para ingresar"
+AUTH_ALREADY_REGISTERED:
+ - "&6{L_PREFIX}&c Este cuenta ya la usaron!"
+ - "&6{L_PREFIX}&e Si olvidaste tu contraseña,"
+ - "&6{L_PREFIX}&e reseteala via e-mail o en nuestra app."
+AUTH_REGISTERED: "&a{L_PREFIX}&a Ha sido registrado & Ingresado."
+
+POPUP_AUTH_NOT_LOGGED_IN:
+ - "&7No ha ingresado."
+ - "&7Escribe tu contraseña para ingresar."
+POPUP_AUTH_LOGGED_IN: "&aHa ingrado."
+POPUP_AUTH_REGISTERED: "&aHa sido registrado & Ingresado!"
+POPUP_AUTH_TRANSFERRED: "&6{L_PREFIX} &7TRansferido a &b{serverName} &6{L_SUFFIX}"
+
+# Economy
+ECON_BALANCE: "&a{L_PREFIX}&e Creditos: &b{balance}"
